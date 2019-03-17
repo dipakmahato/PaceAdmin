@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="PaceHcmAdmin">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pace HCM-Admin </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="script" src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./indexCtrl.js"></script>
+    <script src="appConfig.js"></script>
+    <script src="./reqGroup/reqGroupCtrl.js"></script>
+    <script src="./requirement/requirementCtrl.js"></script>
+    <script src="./resume/resumeCtrl.js"></script>
+    <script src="./transaction/transactionCtrl.js"></script>
+    <script src="./client/clientCtrl.js"></script>
+</head>
+
+<body class="body index_body" ng-controller="IndexCtrl">
+
+    <div class="index_header">
+        <div>
+            <h3>Welcome to Pace HCM Admin</h3>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <a href="resumeTable.html">
+                <div class="tile ">
+                    <p>Resumes</p>
+                    <b> {{paceData.resume}}</b>
+                </div>
+            </a>
+
+            <div class="tile">
+                <p>Requirements</p>
+                <b>{{paceData.req}}</b>
+            </div>
+            <div class="tile">
+                <p>Requirement Groups</p>
+                <b> {{paceData.reqGroup}}</b>
+            </div>
+            <div class="tile">
+                <p>Transactions</p>
+                <b>{{paceData.transaction}}</b>
+            </div>
+            <div class="tile">
+                <p>Clients</p>
+                <b>{{paceData.client}}</b>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <b>footer</b>
+
+    </div>
+</body>
+
+</html>
