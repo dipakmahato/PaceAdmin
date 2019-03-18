@@ -1,0 +1,20 @@
+{
+  "name": "1.0",
+  "version": "1.0.0",
+  "description": "Admin for Pace HCM",
+  "main": "appConfig.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakmahato/PaceAdmin.git"
+  },
+  "keywords": [],
+  "author": "dipakmahato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipakmahato/PaceAdmin/issues"
+  },
+  "homepage": "https://github.com/dipakmahato/PaceAdmin#readme"
+}
